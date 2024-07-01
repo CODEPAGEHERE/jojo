@@ -14,19 +14,19 @@
     position: fixed;
     top: 0;
     bottom: 0;
-    width: 20%;
-    background-color: #969ca1;
+    width: 20% !important;
+    background-color: #f2f3f7;
     overflow-y: auto;
     padding-top: 20px;
 }
 
 #sidebar .nav-link {
-    color: #333;
+    color: #000000 !important;
 }
 
 #sidebar .nav-link.active {
-    font-weight: bold;
-    color: #007bff;
+    text-decoration: underline !important;
+    color: #007bff !important;
 }
 
 .sidebar-sticky {
