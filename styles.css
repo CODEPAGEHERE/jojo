@@ -1,127 +1,97 @@
-*{
+/* Reset margins and paddings */
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-
-#sidebar{
-background-color:rgb(240, 242, 245);
-height: 100vh;
-width:20%;
-float: left;
-margin-left: 10%;
-overflow-y: scroll;
-
-}
-
-#viewspace{
-    background-color: rgb(255, 255, 255);
-    height: 100vh;
-    width:100%;
-    float: left;
-    margin-right: 10%;
-    padding: 0;
-    
-}
-
-#pic{
-    width: 130px;
-    height: 130px;
-    margin-top: 40px;
-    margin-left: 25%;
-    border: 1px solid grey;
-    border-radius:80%;
-
-}
-
-#nam{
-    font-weight:bold;
-    margin-top: 5%;
-    margin-left: 5%;
-    font-size: 100%;
-    text-align: center;
-}
-
-/* fonts */
-
-.naming{
-    font-family: Radio Canada Big;
-    text-align: center;
-}
-
-#job{
-    margin-top: 5px;
-    font-weight: normal;
-    font-size: small;
-    color: rgb(79, 79, 248);
-}
-
-a{
-    font-size: small;
-    color: black;
-    text-decoration: none;
-    margin-bottom: -5px;
-    
-}
-
-a:hover{
-    color: blue;
-    text-decoration: none;
-}
-
-.foot{
-    text-align: center;
-    font-size: smaller;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    margin-top: 40px;
-   height: 100px;
-}
-
-.social-media a{
-    margin: 10px;
-    text-decoration: none;
-    
-}
-
-.social-media a:hover{
-    color: rgb(25, 0, 255)!important;
-}
-
-/* main screen style */
-.hme{
-    height: 100vh;
+/* Sidebar styling */
+#sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
     width: 100%;
-    border: 1px solid black;
-    margin-bottom :10px;
+    background-color: #f8f9fa;
+    overflow-y: auto;
+    padding-top: 20px;
 }
 
-.hmg{
-     width:100%;
-     height:100vh;
-     filter:black and white;
-     z-index:-1;
-     color:black;
+#sidebar .nav-link {
+    color: #333;
 }
 
+#sidebar .nav-link.active {
+    font-weight: bold;
+    color: #007bff;
+}
 
+.sidebar-sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
 
+/* Main content styling */
+#viewspace {
+    padding-top: 20px;
+}
 
+.section {
+    padding: 60px 20px;
+    min-height: 100vh;
+}
 
-#mycv{
-    border: 1px solid black;
-    margin-left: 20px;
+.section h5 {
+    margin-bottom: 20px;
+}
+
+/* Image styling */
+#pic {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.hme .hmg {
+    width: 100%;
+    height: auto;
+}
+
+/* Footer styling */
+.footer {
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+/* Custom container box styling */
+.cbox-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
     margin-top: 20px;
-    width: 150px;
-    height: 35px;
-    text-align: center;
 }
 
-#mycv2{
-    border: 1px solid black;
-    margin-left: 20px;
-    margin-top: 20px;
-    width: 150px;
-    height: 35px;
+.cbox {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+    padding: 20px;
+    background-color: #e9ecef;
     text-align: center;
+    border-radius: 5px;
 }
 
+/* Ensure responsiveness */
+@media (min-width: 768px) {
+    #sidebar {
+        width: 250px;
+    }
+
+    .col-md-9 {
+        margin-left: 250px;
+    }
+}
+
+@media (max-width: 768px) {
+    #sidebar {
+        display: none;
