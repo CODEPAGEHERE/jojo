@@ -122,24 +122,7 @@
     <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.6.2/js/bootstrap.min.js"></script>
-
-    <!-- Custom JS for Scrollspy -->
-    <script>
-        $(document).ready(function(){
-            $('body').scrollspy({ target: '#sidebar', offset: 70 });
-
-            $('.nav-link').on('click', function(event) {
-                if (this.hash !== "") {
-                    event.preventDefault();
-                    var hash = this.hash;
-                    $('html, body').animate({
-                        scrollTop: $(hash).offset().top - 70
-                    }, 800, function(){
-                        window.location.hash = hash - 70;
-                    });
-                }
-            });
-        });
-    </script>
+    <script src="scroll.js"></script>
+   
 </body>
 </html>
