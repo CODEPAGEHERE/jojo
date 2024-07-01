@@ -10,7 +10,7 @@
     position: fixed;
     top: 0;
     bottom: 0;
-    width: 100%;
+    width: 30%;
     background-color: #f8f9fa;
     overflow-y: auto;
     padding-top: 20px;
@@ -32,8 +32,9 @@
 }
 
 /* Main content styling */
-#viewspace {
+#main-content {
     padding-top: 20px;
+    margin-left: 30%;
 }
 
 .section {
@@ -82,16 +83,24 @@
 }
 
 /* Ensure responsiveness */
-@media (min-width: 768px) {
+@media (max-width: 767.98px) {
     #sidebar {
-        width: 250px;
+        display: none;
     }
 
-    .col-md-9 {
-        margin-left: 250px;
+    #main-content {
+        margin-left: 0;
+    }
+
+    .navbar-toggler {
+        display: block;
     }
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
     #sidebar {
-        display: none;
+        width: 30%;
+    }
+
+    #main-content {
+        margin-left: 30%;
