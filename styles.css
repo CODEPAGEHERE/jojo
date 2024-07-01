@@ -5,13 +5,17 @@
     box-sizing: border-box;
 }
 
+#page{
+    margin-left: 11%;
+}
+
 /* Sidebar styling */
 #sidebar {
     position: fixed;
     top: 0;
     bottom: 0;
-    width: 30%;
-    background-color: #f8f9fa;
+    width: 20%;
+    background-color: #969ca1;
     overflow-y: auto;
     padding-top: 20px;
 }
@@ -103,4 +107,5 @@
     }
 
     #main-content {
-        margin-left: 30%;
+        margin-left: 30%;}
+    }
