@@ -143,6 +143,7 @@
 }
 
 
+
 /*style home section */
 #home .flexslider .slides li {
     height: 100vh;
@@ -170,44 +171,28 @@
 }
 
 .flex-control-nav {
-    position: absolute;
-    bottom: 20px;
-    left: 20px;
+    text-align: left !important;
+    position: relative !important ;
+    bottom: 70px !important;
+    z-index: 2;
+}
+
+.flex-control-nav li{
+    display: block !important;
+    margin-top: 10px !important;
 }
 
 .flex-control-nav li a {
-    background: white;
+    background: rgb(255, 255, 255) !important;
+    color: white !important;
+    border: 1px solid blue;
     border-radius: 50%;
-    display: block;
+    display: block !important;
     height: 12px;
     width: 12px;
 }
 
 
-/* General styling for the dots */
-.flex-control-nav {
-    position: absolute;
-    bottom: 20px;
-}
-
-.flex-control-nav li a {
-    background: white;
-    border-radius: 50%;
-    display: block;
-    height: 12px;
-    width: 12px;
-}
-
-/* Align dots on the left for the first slide */
-#home .flexslider .slides li:nth-child(1) .flex-control-nav {
-    left: 20px;
-}
-
-/* Align dots on the right for the second slide */
-#home .flexslider .slides li:nth-child(2) .flex-control-nav {
-    right: 20px;
-    left: auto;
-}
 
      /*style about section */
 
