@@ -237,7 +237,57 @@
 
 
 
+
+
      /*style about section */
+     #about{
+       
+        text-align: left;
+        margin-left: -15%;
+     }
+#javbby{
+    border: 2px solid black;
+    width: 60%;
+    height: 150px;
+    background-color: rgb(230, 131, 50);
+}
+.wrap{
+    width: 100%;
+    height: 150px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+   }
+   .outerbox{
+    width: 200px;
+   }
+
+   .box{
+    background-color: gray;
+    box-shadow: inset;
+    height: 100%;
+    width: 20%;
+    margin-right: 15px;
+    margin-left: 15px;
+    float:left;
+   }
+   #texts{
+    float:right;
+    margin-right: 10px;
+    margin-top: 120px;
+}
+#textsy{ margin-top: 50px;}
+#glb{ font-size: 50px;
+    margin-top: 5%;
+    color: green;}
+    #blb{  font-size: 50px;
+        margin-top: 5%;
+        color: rgba(6, 155, 255, 0.911);}
+    #wad{ font-size: 50px;
+        margin-top: 5%;
+        color: ;}
+    #ntw{ font-size: 50px;
+        margin-top: 5%;
+        color: blanchedalmond;}
 
 
 
