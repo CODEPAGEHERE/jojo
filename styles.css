@@ -237,6 +237,24 @@
 
 
 
+/* Initial state of the text */
+.slider-text .desc {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.6s ease-out;
+}
+
+/* Spaced text for buttons */
+.spaced-text {
+    letter-spacing: 0.2em;
+    display: inline-block;
+}
+
+.spaced-text i {
+    margin-left: 10px;
+}
+
+
      /*style about section */
 
 
