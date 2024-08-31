@@ -255,12 +255,123 @@
 }
 
 
+
+
      /*style about section */
 
 
 
-      /*style sservice section */
+      /*style service section */
 
+      #texth {
+        margin-bottom: 50px; 
+        margin-top: 70px;
+    }
+    
+    #texth h6 {
+        font-family: Quicksand, 'Calibri', sans-serif;
+        font-size: 13px;
+        color: #333;
+        margin-left: 30px;
+        letter-spacing: 0.4em; /* Adjust spacing between letters */
+    }
+    
+    #texth h4 {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 20px;
+        color: #333;
+        margin-left: 30px;
+        margin-top: 20px;
+        margin-bottom: 100px;
+        letter-spacing: 0.2em; /* Adjust spacing between letters */
+    }
+    
+    #divider {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px; 
+        justify-content: center;
+        margin-bottom: 100px;
+        margin-left: 20px;
+    }
+    
+    .hexagon-container {
+        width: 250px;
+        height: 280px;
+        text-align: center;
+        background-color: #ffffff;
+        box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.144); /* Enhanced shadow effect */
+        padding: 20px;
+        box-sizing: border-box; /* Ensure padding is included in the width/height */
+        border-bottom: 2px solid; /* Border color to be set by the hexagon's color */
+        margin-bottom: 50px;
+    }
+    
+    .hexagon-container:nth-child(3n) {
+        margin-right: 0; /* Remove margin on the last item of each row */
+    }
+    
+    .hexagon {
+        width: 100px;
+        height: 100px;
+        background-color: #3498db; /* Default color if not overridden */
+        clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto 20px;
+        margin-top: -70px;
+        position: relative; /* Ensure positioning relative to container */
+    }
+    
+    .hexagon i {
+        font-size: 30px;
+        color: white;
+    }
+    
+    h3 {
+        margin-top: 10px;
+        font-size: 18px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: #333;
+    }
+    
+    p {
+        font-size: 12px;
+        color: #666;
+        font-family: Quickfair , 'calibri';
+        margin: 10px 0 0;
+    }
+    
+    /* Specific background colors for each hexagon container */
+    .hexagon-container:nth-child(1) {
+        border-bottom-color: #2c98f0;;
+    }
+    
+    .hexagon-container:nth-child(2) {
+        border-bottom-color: #ec5453;
+    }
+    
+    .hexagon-container:nth-child(3) {
+        border-bottom-color: #f9bf3f;
+    }
+    
+    .hexagon-container:nth-child(4) {
+        border-bottom-color:  #a84cb8;
+    }
+    
+    .hexagon-container:nth-child(5) {
+        border-bottom-color: #2fa499;
+    }
+    
+    .hexagon-container:nth-child(6) {
+        border-bottom-color:  #4054b2;
+    }
+    
+    
+    
+    
+    
 
 
        /*style skill section */
