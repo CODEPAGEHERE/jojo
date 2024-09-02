@@ -243,13 +243,50 @@
      #about{
        
         text-align: left;
-        margin-left: -15%;
+        margin-left: 5%;
+        margin-top: 10%;
      }
-#javbby{
-    border: 2px solid black;
-    width: 60%;
-    height: 150px;
-    background-color: rgb(230, 131, 50);
+
+     #about h2{
+        text-align: left;
+        font-family: Quicksand, 'calibri';
+        font-weight: lighter;
+        font-size: 13px;
+        letter-spacing: 0.3em;
+     }
+     #about h3{ 
+        padding-bottom: 70px;
+        font-size: 20px;
+        letter-spacing: 0.2em;
+     }
+     #about h4{
+        text-align: left;
+        font-family: Quicksand, 'calibri';
+        font-weight: lighter;
+     line-height: 30px;
+     }
+
+     #probox{
+        background-color: #f9bf3f;
+        width: 100%;
+        height: 200px;
+        text-align: left;
+        margin-top: 90px;
+        margin-left: 12px;
+        margin-bottom: 100px;
+     }
+
+     #project{
+        margin-left: 30px;
+        padding-top: 40px;
+        font-size: 100px;
+     }
+
+#project h2{
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+    
 }
 .wrap{
     width: 100%;
@@ -262,7 +299,7 @@
    }
 
    .box{
-    background-color: gray;
+    background-color: whitesmoke;
     box-shadow: inset;
     height: 100%;
     width: 20%;
@@ -270,24 +307,29 @@
     margin-left: 15px;
     float:left;
    }
+   #go{border-bottom: 2px solid blue;} #we{ border-bottom: 2px solid red;} #sm{ border-bottom: 2px solid yellow;} #at{ border-bottom: 2px solid purple;}
    #texts{
     float:right;
     margin-right: 10px;
     margin-top: 120px;
 }
 #textsy{ margin-top: 50px;}
-#glb{ font-size: 50px;
-    margin-top: 5%;
+#glb{ font-size: 30px;
+    margin-top: 10%;
+    margin-left: 20px;
     color: green;}
-    #blb{  font-size: 50px;
-        margin-top: 5%;
+    #blb{  font-size: 30px;
+        margin-top: 10%;
+        margin-left: 20px;
         color: rgba(6, 155, 255, 0.911);}
-    #wad{ font-size: 50px;
-        margin-top: 5%;
-        color: ;}
-    #ntw{ font-size: 50px;
-        margin-top: 5%;
-        color: blanchedalmond;}
+    #wad{ font-size: 30px;
+        margin-top: 10%;
+        margin-left: 20px;
+        }
+    #ntw{ font-size: 30px;
+        margin-top: 10%;
+        margin-left: 20px;
+        color: lightskyblue;}
 
 
 
