@@ -367,11 +367,73 @@
     .hexagon-container:nth-child(6) {
         border-bottom-color:  #4054b2;
     }
+
+
+
+
+    #projectcall-counter {
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        position: relative;
+        padding: 120px 0;
+        margin-left: 10px;
+        margin-bottom: 50px;
+        height: 20px;
+        
+    }
     
+    .projectcall-counters {
+        position: relative;
+        z-index: 1;
+    }
     
+    .projectcall-narrow-content {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 30px;
+    }
     
+    .projectcall-counter {
+        display: block;
+        font-size: 48px;
+        color: #fff;
+        font-weight: 700;
+       
+    }
     
+    .projectcall-counter-label {
+        display: block;
+        font-size: 18px;
+        color: #fff;
+        margin-top: 10px;
+        margin-bottom: 100px;
+       
+    }
     
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(20, 83, 255, 0.199);
+        z-index: 0;
+    }
+    
+    .texter{
+        color: white;
+        font-family: Quicksand , Calibri;
+        text-align: center;
+        margin-left: 50px;
+        margin-right: 70px;
+        letter-spacing: 2px;
+       
+    }
+    
+    .animate-box{
+        margin-top: -50px;
+    }
 
 
        /*style skill section */
