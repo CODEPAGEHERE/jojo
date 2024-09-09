@@ -11,5 +11,12 @@
     
 
         const date = new Date();
+
+        const elements = document.getElementsByClassName("CurrentDate");
+        const currentYear = date.getFullYear();
         
-        document.getElementById("CurrentDate").innerHTML = date.getFullYear();
+        for (let i = 0; i < elements.length; i++) {
+            elements[i].innerHTML = currentYear;
+        }
+        
+       

@@ -341,17 +341,33 @@
 
 
        /*style skill section */
+
+       #skills p{
+        font-family: Quicksand, 'calibri';
+        font-size: small;
+        letter-spacing: 5px;
+        margin-bottom: 20px;
+     }
+
+        #skills h3{
+    font-size: 20px;
+    letter-spacing: 7px;
+    margin-bottom: 70px;
+}
+
         .progy{
            margin-left: 50px;
            margin-bottom: 50px;
            margin-top:50px ;
+        
            
         }
-        .progress{
+       
+        .progress-container{
             width: 40%;
-            margin-right: 50px;
+            margin-left: 40%;
             margin-top: 40px;
-
+            display: inline;
         }
 
         .skill {
@@ -387,8 +403,8 @@
         }
         
         .progress-circle {
-            width: 25px;
-            height: 25px;
+            width: 40px;
+            height: 40px;
             background-color: inherit;
             border-radius: 50%;
             position: absolute;
@@ -396,6 +412,18 @@
             transform: translate(-50%, -50%);
             z-index: 2;
         }
+
+        .percnt{
+            color: black;
+            text-align: center;
+            z-index: 1;
+            display: block;
+            margin-top: 10px;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bold;
+        }
+
+        
         
         /* Custom colors for progress bars and circles */
         .skill:nth-child(1) .progress-bar,
@@ -440,15 +468,30 @@
          #experience{ text-align: left;
             margin-left: 5%;
             margin-top: 10%;
+            margin-bottom: 40px;
+         }
+         #experience p{
+            font-family: Quicksand, 'calibri';
+            font-size: small;
+            letter-spacing: 5px;
+            margin-bottom: 20px;
+         }
+         #experience h3{
+        font-size: 20px;
+        letter-spacing: 7px;
+        margin-bottom: 70px;
          }
 
         #experience h2{
             font-family: Quicksand , 'calibri';
             font-size: 20px;
             font-weight: lighter;
+            margin-top: 15px;
+            margin-left: 20px;
+
         }
 
-        #experience #CurrentDate{
+        #experience .CurrentDate{
             font-family: Quicksand, 'calibri';
             font-size: 20px;
             font-weight: lighter;
@@ -456,35 +499,68 @@
         }
 
          #experience h4{
-            margin-top: 10px;
+            margin-top: 40px;
             text-align: left;
             font-family: Quicksand, 'calibri';
             font-weight: lighter;
-            font-size: 20px;
-            margin-left: 10px;
+            font-size: 15px;
+            margin-left: 20px;
+            margin-right: 10px;
          }
 
          
          
         #last{
-            background-color:   rgb(230, 231, 233);
+            background-color:  #f2f3f7;
             border: 2px solid white;
             width: 80%;
             height: 200px;
-            margin-top: 10%;
             margin-bottom: 5px;
             margin-left: 10%;
         }
         #finish{
-            background-color:   rgb(230, 231, 233);
+            background-color:   #f2f3f7;
             border: 2px solid white;
             width: 80%;
             height: 200px;
             margin-left: 10%;
             margin-bottom: 10%;
         }
-       
+        .circle {
+            width: 50px;
+            height: 50px;
+            background-color: whitesmoke; /* Set your desired background color */
+            color: white;
+            border-radius: 50%;
+            float:inline-start;
+          }
+
+         .blue{ background-color: #2c98f0;
+            width: 40px;
+            height: 40px;   
+            border-radius: 50%; 
+            margin-left: 5px;
+            margin-top: 5px;}
+
+         .red{ background-color: #ec5453;
+            width: 40px;
+            height: 40px;   
+            border-radius: 50%;
+            margin-left: 5px;
+            margin-top: 5px;}
+
+         .yellow{ background-color: #f9bf3f;
+            width: 40px;
+            height: 40px;   
+            border-radius: 50%;
+            margin-left: 5px;
+            margin-top: 5px;}
           
+            #experience .fas {
+                margin-top: 10px;
+                margin-left: 10px;
+                font-size: 20px;
+            }
 
           /*style works section */
 
