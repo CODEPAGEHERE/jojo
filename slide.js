@@ -1,10 +1,22 @@
 $(document).ready(function() {
     $('.flexslider').flexslider({
-        animation: "fade", // Use "fade" for fade animation, or "slide" for sliding animation
-        slideshowSpeed: 5000, // Time between slides in milliseconds
-        animationSpeed: 600,  // Speed of animation in milliseconds
-        controlNav: true,     // Display navigation (circle indicators)
-        directionNav: false,  // Hide next/prev arrows
-        smoothHeight: true    // Adjust height smoothly
+        animation: "fade",
+        slideshowSpeed: 5000,
+        animationSpeed: 600,
+        controlNav: true,
+        directionNav: false,
+        smoothHeight: true,
+        start: function() {
+            // Trigger animation on the first slide
+            $('.flex-active-slide .desc').css('opacity', '1').css('transform', 'translateY(0)');
+        },
+        before: function() {
+            // Reset animation before slide changes
+            $('.desc').css('opacity', '0').css('transform', 'translateY(30px)');
+        },
+        after: function() {
+            // Trigger animation after the slide has changed
+            $('.flex-active-slide .desc').css('opacity', '1').css('transform', 'translateY(0)');
+        }
     });
 });

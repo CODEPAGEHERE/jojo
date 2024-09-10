@@ -237,55 +237,596 @@
 
 
 
+/* Initial state of the text */
+.slider-text .desc {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.6s ease-out;
+}
+
+/* Spaced text for buttons */
+.spaced-text {
+    letter-spacing: 0.2em;
+    display: inline-block;
+}
+
+.spaced-text i {
+    margin-left: 10px;
+}
+
+
+
+
      /*style about section */
+     #about{
+       
+        text-align: left;
+        margin-left: 5%;
+        margin-top: 10%;
+     }
+
+     #about h2{
+        text-align: left;
+        font-family: Quicksand, 'calibri';
+        font-weight: lighter;
+        font-size: 13px;
+        letter-spacing: 0.3em;
+     }
+     #about h3{ 
+        padding-bottom: 70px;
+        font-size: 20px;
+        letter-spacing: 0.2em;
+     }
+     #about h4{
+        text-align: left;
+        font-family: Quicksand, 'calibri';
+        font-weight: lighter;
+     line-height: 30px;
+     }
+
+     #probox{
+        background-color: #f9bf3f;
+        width: 100%;
+        height: 200px;
+        text-align: left;
+        margin-top: 90px;
+        margin-left: 12px;
+        margin-bottom: 100px;
+     }
+
+     #project{
+        margin-left: 30px;
+        padding-top: 40px;
+        font-size: 100px;
+     }
+
+#project h2{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    letter-spacing: 0rem;
+   
+    
+}
+.wrap{
+    width: 100%;
+    height: 150px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+   }
+   .outerbox{
+    width: 200px;
+   }
+
+   .box{
+    background-color: white;
+    box-shadow: inset;
+    height: 100%;
+    width: 20%;
+    margin-right: 15px;
+    margin-left: 15px;
+    float:left;
+   }
+   #go{border-bottom: 2px solid  #2c98f0;} #we{ border-bottom: 2px solid  #ec5453;} #sm{ border-bottom: 2px solid#f9bf3f;} #at{ border-bottom: 2px solid #a84cb8;}
+   #texts{
+    float:right;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+#textsy{ margin-top: 40px;}
+#glb{ font-size: 30px;
+    margin-top: 10%;
+    margin-left: 20px;
+    color:  #2c98f0;}
+    #blb{  font-size: 30px;
+        margin-top: 10%;
+        margin-left: 20px;
+        color: #ec5453;}
+    #wad{ font-size: 30px;
+        margin-top: 10%;
+        margin-left: 20px;
+        color:#f9bf3f;
+        }
+    #ntw{ font-size: 30px;
+        margin-top: 10%;
+        margin-left: 20px;
+        color: #a84cb8;}
 
 
 
-      /*style sservice section */
+      /*style service section */
 
+      #texth {
+        margin-bottom: 50px; 
+        margin-top: 70px;
+    }
+    
+    #texth h6 {
+        font-family: Quicksand, 'Calibri', sans-serif;
+        font-size: 13px;
+        color: #333;
+        margin-left: 30px;
+        letter-spacing: 0.4em; /* Adjust spacing between letters */
+    }
+    
+    #texth h4 {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 20px;
+        color: #333;
+        margin-left: 30px;
+        margin-top: 20px;
+        margin-bottom: 100px;
+        letter-spacing: 0.2em; /* Adjust spacing between letters */
+    }
+    
+    #divider {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px; 
+        justify-content: center;
+        margin-bottom: 100px;
+        margin-left: 20px;
+    }
+    
+    .hexagon-container {
+        width: 250px;
+        height: 280px;
+        text-align: center;
+        background-color: #ffffff;
+        box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.144); /* Enhanced shadow effect */
+        padding: 20px;
+        box-sizing: border-box; /* Ensure padding is included in the width/height */
+        border-bottom: 2px solid; /* Border color to be set by the hexagon's color */
+        margin-bottom: 50px;
+    }
+    
+    .hexagon-container:nth-child(3n) {
+        margin-right: 0; /* Remove margin on the last item of each row */
+    }
+    
+    .hexagon {
+        width: 100px;
+        height: 100px;
+        background-color: #3498db; /* Default color if not overridden */
+        clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto 20px;
+        margin-top: -70px;
+        position: relative; /* Ensure positioning relative to container */
+    }
+    
+    .hexagon i {
+        font-size: 30px;
+        color: white;
+    }
+    
+    h3 {
+        margin-top: 10px;
+        font-size: 18px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: #333;
+    }
+    
+    p {
+        font-size: 12px;
+        color: #666;
+        font-family: Quickfair , 'calibri';
+        margin: 10px 0 0;
+    }
+    
+    /* Specific background colors for each hexagon container */
+    .hexagon-container:nth-child(1) {
+        border-bottom-color: #2c98f0;;
+    }
+    
+    .hexagon-container:nth-child(2) {
+        border-bottom-color: #ec5453;
+    }
+    
+    .hexagon-container:nth-child(3) {
+        border-bottom-color: #f9bf3f;
+    }
+    
+    .hexagon-container:nth-child(4) {
+        border-bottom-color:  #a84cb8;
+    }
+    
+    .hexagon-container:nth-child(5) {
+        border-bottom-color: #2fa499;
+    }
+    
+    .hexagon-container:nth-child(6) {
+        border-bottom-color:  #4054b2;
+    }
+
+
+
+
+    #projectcall-counter {
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        position: relative;
+        padding: 120px 0;
+        margin-left: 10px;
+        margin-bottom: 50px;
+        height: 20px;
+        
+    }
+    
+    .projectcall-counters {
+        position: relative;
+        z-index: 1;
+    }
+    
+    .projectcall-narrow-content {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 30px;
+    }
+    
+    .projectcall-counter {
+        display: block;
+        font-size: 48px;
+        color: #fff;
+        font-weight: 700;
+       
+    }
+    
+    .projectcall-counter-label {
+        display: block;
+        font-size: 18px;
+        color: #fff;
+        margin-top: 10px;
+        margin-bottom: 100px;
+       
+    }
+    
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(20, 83, 255, 0.199);
+        z-index: 0;
+    }
+    
+    .texter{
+        color: white;
+        font-family: Quicksand , Calibri;
+        text-align: center;
+        margin-left: 50px;
+        margin-right: 70px;
+        letter-spacing: 2px;
+       
+    }
+    
+    .animate-box{
+        margin-top: -50px;
+    }
 
 
        /*style skill section */
 
+       #skills p{
+        font-family: Quicksand, 'calibri';
+        font-size: small;
+        letter-spacing: 5px;
+        margin-bottom: 20px;
+     }
 
+        #skills h3{
+    font-size: 20px;
+    letter-spacing: 7px;
+    margin-bottom: 70px;
+}
 
+        .progy{
+           margin-left: 50px;
+           margin-bottom: 50px;
+           margin-top:50px ;
+        
+           
+        }
+       
+        .progress-container{
+            width: 40%;
+            margin-left: 40%;
+            margin-top: 40px;
+            display: inline;
+        }
+
+        .skill {
+            margin-bottom: 20px;
+        }
+        
+        label {
+            font-weight: bold;
+            display: block;
+            margin-bottom: 5px;
+        }
+        
+        .progress-container {
+            position: relative;
+            background-color: #e0e0e0;
+            border-radius: 25px;
+            overflow: hidden;
+            height: 10px;
+            width: 40%; /* Fixed width for all progress bars */
+            margin-bottom: 20px;
+        }
+        
+        .progress-bar {
+            height: 10px;
+            border-radius: 25px;
+            position: relative;
+            line-height: 10px; /* Center the percentage text vertically */
+            text-align: center;
+            font-size: 12px; /* Adjust font size for readability */
+            color: #fff;
+            background-color: #3498db; /* Default color */
+            z-index: 1;
+        }
+        
+        .progress-circle {
+            width: 40px;
+            height: 40px;
+            background-color: inherit;
+            border-radius: 50%;
+            position: absolute;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 2;
+        }
+
+        .percnt{
+            color: black;
+            text-align: center;
+            z-index: 1;
+            display: block;
+            margin-top: 10px;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bold;
+        }
+
+        
+        
+        /* Custom colors for progress bars and circles */
+        .skill:nth-child(1) .progress-bar,
+        .skill:nth-child(1) .progress-circle {
+            background-color: #3498db;
+        }
+        
+        .skill:nth-child(2) .progress-bar,
+        .skill:nth-child(2) .progress-circle {
+            background-color: #e74c3c;
+        }
+        
+        .skill:nth-child(3) .progress-bar,
+        .skill:nth-child(3) .progress-circle {
+            background-color: #f39c12;
+        }
+        
+        .skill:nth-child(4) .progress-bar,
+        .skill:nth-child(4) .progress-circle {
+            background-color: #9b59b6;
+        }
+        
+        .skill:nth-child(5) .progress-bar,
+        .skill:nth-child(5) .progress-circle {
+            background-color: #2ecc71;
+        }
+        
+        .skill:nth-child(6) .progress-bar,
+        .skill:nth-child(6) .progress-circle {
+            background-color: #34495e;
+        }
+        
+        
+        
+        
+      
         /*style education section */
 
-        /* Base Styles */
 
-
-/* Main styles remain unchanged */
-h2 {
-    font-size: 21px;
-    text-align: left;
-    margin-left: 25px;
-    margin-bottom: 70px;
-    letter-spacing: 4px;
-}
-
-p {
-    font-size: 11px;
-    margin-bottom: 8px;
-    text-align: left;
-    margin-left: 25px;
-    margin-bottom: 10px;
-    letter-spacing: 6px;
-    font-family: Quicksand, 'Calibri';
-}
-
-
-.educ {
-    text-align: center;
-    color: rgb(0, 0, 0);
-    font-size: 8px;
-}
-
-
-
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        
+        .education h1 {
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            font-size: 28px;
+            font-weight: 500;
+            margin-bottom: 20px;
+        }
+        
+        .accordion {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .accordion-item {
+            border: 1px solid #ddd;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+        
+        .accordion-header {
+            background-color: #f2f2f2;
+            color: #333;
+            padding: 15px;
+            text-align: left;
+            font-size: 18px;
+            cursor: pointer;
+            border: none;
+            width: 100%;
+            text-transform: uppercase;
+            transition: background-color 0.3s ease;
+            position: relative;
+        }
+        
+        .accordion-header.active {
+            background-color: #3498db;
+            color: white;
+        }
+        
+        .accordion-header::after {
+            content: "+";
+            font-size: 20px;
+            position: absolute;
+            right: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+            transition: transform 0.3s ease;
+        }
+        
+        .accordion-header.active::after {
+            content: "-";
+        }
+        
+        .accordion-content {
+            display: none;
+            background-color: white;
+            padding: 20px;
+            font-size: 16px;
+            color: #555;
+            line-height: 1.6;
+        }
+        
+        .accordion-content p {
+            margin: 0 0 10px;
+        }
+        
+        .show {
+            display: block;
+        }
+        
 
          /*style experience section */
+         #experience{ text-align: left;
+            margin-left: 5%;
+            margin-top: 10%;
+            margin-bottom: 40px;
+         }
+         #experience p{
+            font-family: Quicksand, 'calibri';
+            font-size: small;
+            letter-spacing: 5px;
+            margin-bottom: 20px;
+         }
+         #experience h3{
+        font-size: 20px;
+        letter-spacing: 7px;
+        margin-bottom: 70px;
+         }
 
+        #experience h2{
+            font-family: Quicksand , 'calibri';
+            font-size: 20px;
+            font-weight: lighter;
+            margin-top: 15px;
+            margin-left: 20px;
 
+        }
+
+        #experience .CurrentDate{
+            font-family: Quicksand, 'calibri';
+            font-size: 20px;
+            font-weight: lighter;
+            display: inline;
+        }
+
+         #experience h4{
+            margin-top: 40px;
+            text-align: left;
+            font-family: Quicksand, 'calibri';
+            font-weight: lighter;
+            font-size: 15px;
+            margin-left: 20px;
+            margin-right: 10px;
+         }
+
+         
+         
+        #last{
+            background-color:  #f2f3f7;
+            border: 2px solid white;
+            width: 80%;
+            height: 200px;
+            margin-bottom: 5px;
+            margin-left: 10%;
+        }
+        #finish{
+            background-color:   #f2f3f7;
+            border: 2px solid white;
+            width: 80%;
+            height: 200px;
+            margin-left: 10%;
+            margin-bottom: 10%;
+        }
+        .circle {
+            width: 50px;
+            height: 50px;
+            background-color: whitesmoke; /* Set your desired background color */
+            color: white;
+            border-radius: 50%;
+            float:inline-start;
+          }
+
+         .blue{ background-color: #2c98f0;
+            width: 40px;
+            height: 40px;   
+            border-radius: 50%; 
+            margin-left: 5px;
+            margin-top: 5px;}
+
+         .red{ background-color: #ec5453;
+            width: 40px;
+            height: 40px;   
+            border-radius: 50%;
+            margin-left: 5px;
+            margin-top: 5px;}
+
+         .yellow{ background-color: #f9bf3f;
+            width: 40px;
+            height: 40px;   
+            border-radius: 50%;
+            margin-left: 5px;
+            margin-top: 5px;}
+          
+            #experience .fas {
+                margin-top: 10px;
+                margin-left: 10px;
+                font-size: 20px;
+            }
 
           /*style works section */
 
