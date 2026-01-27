@@ -1,4 +1,4 @@
-<h1 align="center">Your Name</h1>
+<h1 align="center">BOT</h1>
 
 <p align="center">
 <img alt="Bootstrap" src="https://img.shields.io/badge/Bootstrap-7952b3?style=for-the-badge&logo=bootstrap&logoColor=white"/> 
@@ -9,12 +9,11 @@
 ---
 
 ## ✨ About the Project
+BOT is a professional web developer. this portfolio project is built to showcase:
 
-Happycode Technologies is a **professional software company** this project is built to showcase our:  
+projects: web applications and software tools focused on efficiency, innovation, and real-world impact.
 
-- **Team:** Experienced software engineers, UI/UX experts, and strategist and partners.  
-- **Projects:** Software tools built for efficiency, innovation, and real-world impact.  
-- **Services:** Software solutions, mentorship, collaboration, and technology consulting.  
+services: web development solutions, collaboration, mentorship, and technology consulting.
 
 ---
 
@@ -101,11 +100,11 @@ add cdn
 ## 📬 Contact
 
 Reach out to me on:
-📧 [Your mail.com](mailto:your mail.com)
+📧 adenijimujeeb8@gmail.com
 
 ---
 
 ## 📄 License
 
-Copyright ©️ 2026, **Your name** – All Rights Reserved.
+Copyright ©️ 2026, **BOT** – All Rights Reserved.
 Private & proprietary; unauthorized use or distribution is prohibited.
