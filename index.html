@@ -9,7 +9,8 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.6.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-  
+    <link rel="stylesheet" href="loader/loader.css">
+
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -512,6 +513,24 @@
 <script src="counting.js"></script>
 <script src="count.js"></script>
 <script src="new.js"></script>
+<script src="loader.js"></script>
+<script>
+  // load loader.html into body
+  fetch("loader/loader.html")
+    .then(res => res.text())
+    .then(html => {
+      document.body.insertAdjacentHTML("afterbegin", html);
+
+      // simulate slow loading for testing
+      setTimeout(() => {
+        const loader = document.getElementById("loader");
+        if(loader) loader.style.display = "none";
+      }, 3000); // waits 3 seconds before hiding loader
+    });
+</script>
+
+
+
 
 
 </body>
