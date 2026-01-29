@@ -9,11 +9,10 @@
 ---
 
 ## ✨ About the Project
-BOT is a professional web developer. this portfolio project is built to showcase:
 
-projects: web applications and software tools focused on efficiency, innovation, and real-world impact.
-
-services: web development solutions, collaboration, mentorship, and technology consulting.
+i’m bot, a full-stack web developer.
+This portfolio showcases web applications i’ve built across frontend and backend development,
+with an emphasis on functionality, clarity, and maintainable code.
 
 ---
 
